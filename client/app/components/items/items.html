@@ -1,0 +1,9 @@
+<div ng-if="vm.nav" class="col-6 t-a-c m-a m-b-10">
+
+  <div ng-repeat="item in vm.items" class="col-1-6 d-i-b">
+    <a ng-click="vm.goTo(item.name)"><span class="btn c-p {{vm.navObj[item.name].class}}">{{item.name}}</span></a>
+  </div>
+
+</div>
+
+<div class="ui-view"></div>

@@ -1,0 +1,186 @@
+.t-a-c {
+  text-align: center;
+}
+.t-a-l {
+  text-align: left;
+}
+.t-a-s {
+  text-align: start;
+}
+.v-a-t {
+  vertical-align: top;
+}
+.c-p {
+  cursor: pointer;
+}
+.h-49 {
+  height: 49%;
+}
+.h-50 {
+  height: 50px;
+}
+.w-25 {
+  width: 25%;
+}
+.w-68 {
+  width: 68.5%;
+}
+.w-70 {
+  width: 70%;
+}
+.p-t-30 {
+  padding-top: 30px;
+}
+.p-t-35 {
+  padding-top: 35px;
+}
+.p-t-12 {
+  padding-top: 12px;
+}
+.p-l-12 {
+  padding-left: 12px;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.col-6 {
+  width: 100%
+}
+.col-1-3 {
+  width: 33%
+}
+.col-1-10 {
+  width: 9%
+}
+.col-1-6 {
+  width: 16.66%
+}
+.col-1-2 {
+  width: 49%
+}
+.w-35 {
+  width: 35%
+}
+.w-45 {
+  width: 45%
+}
+.w-40 {
+  width: 40%
+}
+.w-20 {
+  width: 20%
+}
+.w-14 {
+  width: 14%
+}
+.w-75 {
+  width: 75%
+}
+.w-37 {
+  width: 37%
+}
+.w-95 {
+  width: 95%
+}
+.m-a {
+  margin: auto;
+}
+.b-1-s {
+  border: 1px solid;
+}
+.pad-2 {
+ padding: 2px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-t-8 {
+  margin-top: 8px;
+}
+.m-t-5 {
+  margin-top: 5px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-l-2 {
+  margin-left: 2px;
+}
+.m-l-5 {
+  margin-left: 5px;
+}
+.m-l-18 {
+  margin-left: 18px;
+}
+.m-l-40 {
+  margin-left: 40px;
+}
+.m-l-10 {
+  margin-left: 10px;
+}
+.p-r {
+  position: relative;
+}
+.d-i-b {
+  display: inline-block;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.active {
+  background: #c70f0f;
+}
+.m-l-50 {
+  margin-left: 50px;
+}
+.m-t-25 {
+  margin-top: 25px;
+}
+.h-200 {
+  height: 200px;
+}
+.h-210 {
+  height: 210px;
+}
+.h-136 {
+  height: 136px;
+}
+.h-160 {
+  height: 160px;
+}
+.v-a-m {
+  vertical-align: middle;
+}
+.header-bg {
+  background: url(../images/header_bg.png) no-repeat center center
+}
+.footer-bg {
+  background: url(../images/footer_bg.png) no-repeat center center
+}
+.m-0-auto {
+  margin: 0 auto;
+}
+.place_order {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.place_order a {
+  text-transform: none;
+  text-decoration: underline;
+}
+.place_order a:hover {
+  color: #c40606;
+}
+.bg-white {
+  background: white;
+}
