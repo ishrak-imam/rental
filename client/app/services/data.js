@@ -41,6 +41,7 @@ function dataSource() {
         code: '#002',
         image: 'app/images/products/002.jpg',
         highlights: [
+          'For Micro Four Thirds Mount',
           'Covers APS-C Sensors',
           'Minimum Focus Distance 7.9”',
           'Dual Side Focus and T-Stop Scales',
@@ -54,6 +55,7 @@ function dataSource() {
         code: '#003',
         image: 'app/images/products/003.jpg',
         highlights: [
+          'For Micro Four Thirds Mount',
           'Covers Full-Frame Sensors',
           'Minimum Focus Distance 9.8”',
           'Dual Side Focus and T-Stop Scales',
@@ -67,6 +69,7 @@ function dataSource() {
         code: '#004',
         image: 'app/images/products/004.jpg',
         highlights: [
+          'For Micro Four Thirds Mount',
           'Covers Full-Frame Sensors',
           'Minimum Focus Distance 31”',
           'Dual Side Focus and T-Stop Scales',
@@ -117,7 +120,7 @@ function dataSource() {
           'V-Mount Battery Plate',
         ],
         withHire: [
-          'SIMPLEX LIGHT STAND'
+          'SIMPEX LIGHT STAND'
         ]
       },
 
@@ -180,7 +183,7 @@ function dataSource() {
     audio: [
 
       {
-        name: 'TASCAM DR-701D',
+        name: 'TASCAM DR-701D AUDIO RECORDER',
         code: '#012',
         image: 'app/images/products/012.jpg',
         highlights: [
@@ -199,7 +202,7 @@ function dataSource() {
       },
 
       {
-        name: 'RODE NTG3 SHOTGUN',
+        name: 'RODE NTG3 SHOTGUN MICROPHONE',
         code: '#013',
         image: 'app/images/products/013.jpg',
         highlights: [
@@ -257,7 +260,7 @@ function dataSource() {
     accessories: [
 
       {
-        name: 'SMALLHD 702 BRIGHT',
+        name: 'SMALLHD 702 BRIGHT MONITOR',
         code: '#017',
         image: 'app/images/products/017.jpg',
         highlights: [
