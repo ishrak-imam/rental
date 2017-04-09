@@ -32,10 +32,10 @@ angular.module('root', [
   placeOrder.name
 ])
 
-  .config(($locationProvider) => {
-    'ngInject';
-    $locationProvider.html5Mode(true);
-  })
+  // .config(($locationProvider) => {
+  //   'ngInject';
+  //   $locationProvider.html5Mode(true);
+  // })
 
   .service('device', device)
   .service('DATA', data)
