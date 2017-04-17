@@ -1926,7 +1926,7 @@ a.skiptocontent:focus {
 }
 .product .features h1 {
   margin: 0 0 4%;
-  width: 200%
+  width: 100%
 }
 .product .features h2 {
   font-family: Gotham-Book;
@@ -1972,7 +1972,7 @@ a.skiptocontent:focus {
   display: inline-block
 }
 .product .detailbtns .quote {
-  width: 65%
+  width: 170px
 }
 .product .detailbtns .quote.in-quote {
   width: 69%

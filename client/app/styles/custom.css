@@ -40,6 +40,9 @@
 .p-t-12 {
   padding-top: 12px;
 }
+.p-b-12 {
+  padding-bottom: 12px;
+}
 .p-l-12 {
   padding-left: 12px;
 }
@@ -192,4 +195,17 @@
 }
 .bg-white {
   background: white;
+}
+
+
+
+
+@media (max-width: 750px) {
+  .resp_width_100p {
+    width: 100%
+  }
+  .resp_prod_features {
+    width: 100%;
+    margin-top: 20px
+  }
 }
