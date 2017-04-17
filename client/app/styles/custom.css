@@ -208,4 +208,10 @@
     width: 100%;
     margin-top: 20px
   }
+  .main-products .item_box {
+    width: 100%
+  }
+  .item_box img {
+    margin: auto auto 55px auto
+  }
 }

@@ -4,12 +4,12 @@
 
   <div class="grid">
 
-    <article ng-repeat="item in vm.items">
+    <div class="item_box" ng-repeat="item in vm.items">
 
       <img ng-src="{{item.img}}">
       <a ng-click="vm.goTo(item.name)"><span class="btn c-p">{{item.name}}</span></a>
 
-    </article>
+    </div>
 
   </div>
 

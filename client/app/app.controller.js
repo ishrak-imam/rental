@@ -5,11 +5,11 @@ class AppController {
   }
 
   $onInit() {
-    if(this.device.isMobile()) {
-      this.mobile = true;
-    } else {
-      this.pc = true;
-    }
+    // if(this.device.isMobile()) {
+    //   this.mobile = true;
+    // } else {
+    //   this.pc = true;
+    // }
   }
 }
 

@@ -566,7 +566,7 @@ body {
 section {
   clear: both
 }
-article {
+.item_box {
   box-sizing: border-box
 }
 a {
@@ -580,8 +580,8 @@ p a:focus,
 p a:hover {
   text-decoration: underline
 }
-article a:focus,
-article a:hover,
+.item_box a:focus,
+.item_box a:hover,
 footer a:focus,
 footer a:hover {
   color: #c70f0f
@@ -750,7 +750,7 @@ header button:hover {
   background: #fff;
   color: #000
 }
-.grid article {
+.grid .item_box {
   display: block;
   float: left;
   min-height: 1px;
@@ -1636,7 +1636,7 @@ a.skiptocontent:focus {
   margin-bottom: 10px;
   background: #fff
 }
-.main-products article {
+.main-products .item_box {
   width: 32.333%;
   margin-bottom: 1%;
   position: relative;
@@ -1689,20 +1689,20 @@ a.skiptocontent:focus {
 .relatedwrap .col-9 {
   width: 100%
 }
-.relatedwrap article {
+.relatedwrap .item_box {
   padding-bottom: 20px;
   position: relative;
   float: left
 }
-.relatedwrap article:first-child {
+.relatedwrap .item_box:first-child {
   margin-left: 0
 }
-.relatedwrap .col-6 article {
+.relatedwrap .col-6 .item_box {
   width: 49.18534%;
   display: inline;
   margin-left: 1.62933%
 }
-.relatedwrap .col-3 article {
+.relatedwrap .col-3 .item_box {
   width: 100%;
   margin-left: 0
 }
@@ -1718,7 +1718,7 @@ a.skiptocontent:focus {
   margin-right: .9%;
   float: left
 }
-.content .info-container article {
+.content .info-container .item_box {
   position: relative;
   width: 100%
 }
@@ -1728,42 +1728,42 @@ a.skiptocontent:focus {
   left: 1.3em;
   right: 1.3em
 }
-.content article.info {
+.content .item_box.info {
   padding: 1.1em 1.3em;
   padding-bottom: 2.8em;
   background: #222;
   color: #fff;
   text-transform: uppercase
 }
-.content article.info h2 {
+.content .item_box.info h2 {
   font-family: Gotham-Bold;
   font-size: 2.46154em;
   line-height: .8125em
 }
-.content article.info p {
+.content .item_box.info p {
   font-size: .92308em;
   line-height: 1.33333em;
   width: 96%;
   margin: 10px 0 20px
 }
-.content article.info a {
+.content .item_box.info a {
   font-size: 1.07692em;
   padding: 1px 0;
   line-height: 1;
   padding: .5em
 }
-.content article.info:first-child {
+.content .item_box.info:first-child {
   margin-bottom: .61538462em
 }
-.content article.news {
+.content .item_box.news {
   position: relative;
   height: 100%;
   padding-bottom: 2.6em
 }
-.content article.news img {
+.content .item_box.news img {
   margin-bottom: 6%
 }
-.content article.news h2 {
+.content .item_box.news h2 {
   text-transform: uppercase;
   font-size: 1.69231em;
   font-family: Gotham-Book;
@@ -1773,12 +1773,12 @@ a.skiptocontent:focus {
   margin-bottom: .6em;
   letter-spacing: -1px
 }
-.content article.news p {
+.content .item_box.news p {
   line-height: 1.5em;
   font-size: .92308em;
   margin-bottom: .4em
 }
-.content article.news .cta {
+.content .item_box.news .cta {
   position: absolute;
   bottom: 0;
   margin-top: 10px;
@@ -1801,22 +1801,22 @@ a.skiptocontent:focus {
   padding-top: 15px;
   padding-bottom: 10px
 }
-.col-9 .content article.info {
+.col-9 .content .item_box.info {
   width: 32%;
   float: left;
   margin: 0 0 0 2%;
   padding: 1.45em .9em 1em;
   box-sizing: border-box
 }
-.col-9 .content article.info h2 {
+.col-9 .content .item_box.info h2 {
   width: 100%;
   height: 50px
 }
-.col-9 .content article.info p {
+.col-9 .content .item_box.info p {
   height: 90px;
   margin-bottom: 10px
 }
-.col-9 .content article.info a {
+.col-9 .content .item_box.info a {
   font-size: 1.23077em
 }
 .col-9 .col-6 .content .col-3:first-child {
@@ -2143,7 +2143,7 @@ section>header span {
 #range header {
   padding-bottom: 0
 }
-#range article {
+#range .item_box {
   width: 48.7%;
   margin: 0 0 1.81% 1.81%
 }
@@ -2168,56 +2168,56 @@ section>header span {
   top: 65%;
   right: 3.2%
 }
-#newsfeed article {
+#newsfeed .item_box {
   background: #fff;
   overflow: hidden;
   border-bottom: 1px solid #ccc;
   position: relative
 }
-#newsfeed article header {
+#newsfeed .item_box header {
   margin: 1.4em 0 0;
   padding: 1% 1.81% 2% 1.81%;
   border-bottom: 2px solid #222
 }
-#newsfeed article header h1 {
+#newsfeed .item_box header h1 {
   font-size: 2.46154em;
   line-height: 1em;
   margin-top: 4.5%;
   margin-bottom: 2%;
   font-family: Gotham-Black
 }
-#newsfeed article header a[rel=author] {
+#newsfeed .item_box header a[rel=author] {
   font-weight: 700
 }
-#newsfeed article .news-article {
+#newsfeed .item_box .news-.item_box {
   padding: 0 1.81%;
   overflow: hidden;
   box-sizing: border-box
 }
-#newsfeed article .news-article p {
+#newsfeed .item_box .news-.item_box p {
   line-height: 1.61538em;
   margin: 1em 0
 }
-#newsfeed article .news-article.two-col {
+#newsfeed .item_box .news-.item_box.two-col {
   width: 47%;
   float: left
 }
-#newsfeed article .pad-bottom {
+#newsfeed .item_box .pad-bottom {
   padding-bottom: 2em
 }
-#newsfeed article .news-article .float-right img {
+#newsfeed .item_box .news-.item_box .float-right img {
   float: right;
   width: 47%;
   padding-left: 2%
 }
-#newsfeed article .cta {
+#newsfeed .item_box .cta {
   position: absolute;
   bottom: 1em
 }
-#newsfeed article.first h1 {
+#newsfeed .item_box.first h1 {
   margin-top: 3%
 }
-#newsfeed .set article {
+#newsfeed .set .item_box {
   border-bottom: none;
   margin: 1.81% 0 3% 1%
 }
@@ -2246,15 +2246,15 @@ section>header span {
   position: absolute;
   left: 35%
 }
-img.article {
+img..item_box {
   float: left;
   width: 47.3%;
   margin: 0 0 2.45%
 }
-img.article:first-child {
+img..item_box:first-child {
   margin-top: 2.45%
 }
-img.article:last-child {
+img..item_box:last-child {
   margin-bottom: 5.9%
 }
 div.share h3 {
