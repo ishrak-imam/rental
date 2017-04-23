@@ -1,6 +1,6 @@
 function dataSource() {
 
-  const items = [
+  const categories = [
     {name: 'camera', img: 'app/images/items/camera.jpg'},
     {name: 'lens', img: 'app/images/items/lens.jpg'},
     {name: 'lighting', img: 'app/images/items/lighting.jpg'},
@@ -306,7 +306,7 @@ function dataSource() {
 
 
   return {
-    items: items,
+    categories: categories,
     products: products
   }
 }

@@ -5,7 +5,7 @@ class HeaderController {
   }
 
   toHome = () => {
-    this.state.go('all');
+    this.state.go('products.all');
   }
 }
 

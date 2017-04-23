@@ -1,0 +1,14 @@
+<section class="main-products">
+
+    <div class="grid">
+
+        <div class="item_box" ng-repeat="category in vm.categories">
+
+            <img ng-src="{{category.img}}">
+            <a ui-sref="products.{{category.name}}"><span class="btn c-p">{{category.name}}</span></a>
+
+        </div>
+
+    </div>
+
+</section>

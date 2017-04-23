@@ -6,10 +6,8 @@ import root from './app.component';
 // components //
 import header from './components/header/header';
 import footer from './components/footer/footer';
-import items from './components/items/items';
 import brandLogos from './components/brandLogos/brandLogos';
-import placeOrder from './components/placeOrder/placeOrder';
-import mobileDevice from './components/mobileDevice/mobileDevice';
+import dashboard from './components/dashboard/dashboard';
 
 
 // services //
@@ -26,10 +24,8 @@ angular.module('root', [
   uiRouter,
   header.name,
   footer.name,
-  items.name,
-  brandLogos.name,
-  mobileDevice.name,
-  placeOrder.name
+  dashboard.name,
+  brandLogos.name
 ])
 
   // .config(($locationProvider) => {

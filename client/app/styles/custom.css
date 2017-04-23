@@ -65,7 +65,8 @@
   width: 9%
 }
 .col-1-6 {
-  width: 16.66%
+  /*width: 16.66%*/
+  width: 14.20%
 }
 .col-1-2 {
   width: 49%
@@ -201,6 +202,9 @@
 
 
 @media (max-width: 750px) {
+  .top_nav_resp {
+    width: 25%
+  }
   .resp_width_100p {
     width: 100%
   }
