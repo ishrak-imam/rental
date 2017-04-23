@@ -1,7 +1,7 @@
 
 class ItemsController {
 
-  constructor($state, DATA, $window, $scope) {
+  constructor($state, DATA, $window, $scope, $rootScope) {
     'ngInject';
     this.scope = $scope;
     this.window = $window;
@@ -33,6 +33,11 @@ class ItemsController {
     this.scope.$on('ITEM_SELECTED', (event, item) => {
       this.goTo(item)
     });
+
+    this.scope.$on('$stateChangeSuccess', (event, toState) => {
+      this.showTopNav();
+      this.setActiveClass(toState.name);
+    })
   }
 
   goTo = (to) => {
