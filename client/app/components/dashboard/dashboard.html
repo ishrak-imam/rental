@@ -1,15 +1,11 @@
-<div class="col-6 t-a-c m-a m-b-10">
+<div class="col-6 t-a-c m-b-10">
 
-    <div class="top_nav_resp col-1-6 d-i-b">
-        <a ui-sref="products.all"><span ng-class="{'active': vm.state.includes('products')}" class="btn c-p">Products</span></a>
-    </div>
-
-    <div class="top_nav_resp col-1-6 d-i-b">
-        <a ui-sref="order"><span ng-class="{'active': vm.state.includes('order')}" class="btn c-p">Order</span></a>
-    </div>
-
-    <div class="top_nav_resp col-1-6 d-i-b">
-        <a ui-sref="contact"><span ng-class="{'active': vm.state.includes('contact')}" class="btn c-p">Contact</span></a>
+    <div class="top_nav_resp col-1-3 d-i-b m-r-1">
+        <a ui-sref="products.all"><span ng-class="{'top-menu-active': vm.state.includes('products')}" class="top-menu btn c-p">Products</span></a>
+    </div><div class="top_nav_resp col-1-3 d-i-b m-r-1">
+        <a ui-sref="order"><span ng-class="{'top-menu-active': vm.state.includes('order')}" class="top-menu btn c-p">Order</span></a>
+    </div><div class="top_nav_resp col-1-3 d-i-b m-r-1">
+        <a ui-sref="contact"><span ng-class="{'top-menu-active': vm.state.includes('contact')}" class="top-menu btn c-p">Contact</span></a>
     </div>
 
 </div>

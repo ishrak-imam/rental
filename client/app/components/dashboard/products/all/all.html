@@ -4,8 +4,8 @@
 
         <div class="item_box" ng-repeat="category in vm.categories">
 
-            <img ng-src="{{category.img}}">
-            <a ui-sref="products.{{category.name}}"><span class="btn c-p">{{category.name}}</span></a>
+            <img class="m-l-r-a" ng-src="{{category.img}}">
+            <a ui-sref="products.{{category.name}}"><span class="cat-btn btn m-l-r-a c-p">{{category.name}}</span></a>
 
         </div>
 

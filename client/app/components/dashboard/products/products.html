@@ -1,10 +1,13 @@
 <div class="col-6 t-a-c m-a m-b-10">
 
-    <div class="resp_width_100p col-1-6 d-i-b">
+    <!--<div class="resp_width_100p col-1-6 d-i-b">
         <a ui-sref="products.all"><span ng-class="{'active': vm.state.includes('products.all')}" class="btn c-p">All</span></a>
-    </div>
-    <div ng-repeat="category in vm.categories" class="resp_width_100p col-1-6 d-i-b">
-        <a ui-sref="products.{{category.name}}"><span ng-class="{'active': vm.state.includes('products.{{category.name}}')}" class="btn c-p">{{category.name}}</span></a>
+    </div>-->
+
+    <div ng-hide="vm.state.includes('products.all')">
+        <div ng-repeat="category in vm.categories" class="resp_width_33p col-1-6 d-i-b">
+            <a ui-sref="products.{{category.name}}"><span ng-class="{'product-menu-active': vm.state.includes('products.{{category.name}}')}" class="product-menu btn c-p">{{category.name}}</span></a>
+        </div>
     </div>
 
 </div>

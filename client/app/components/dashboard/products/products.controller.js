@@ -4,6 +4,7 @@ class ProductsController {
     this.state = $state;
     this.categories = DATA.categories;
   }
+
 }
 
 export default ProductsController;
